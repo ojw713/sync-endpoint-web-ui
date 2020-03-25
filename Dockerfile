@@ -1,4 +1,4 @@
-FROM maven:3 as compiler
+FROM maven:3.6.2 as compiler
 
 COPY . /web-ui
 
